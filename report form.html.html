@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+table,tr,td{
+    border: 2px solid black;
+    text-align: center;
+} 
+    
+#th1{
+    color: white;
+    background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: x-large;
+}
+.td1{
+    text-align: right;
+    padding-bottom: 5%;
+}
+td{
+    text-align: left;
+}
+#th2{
+    padding-bottom: 5%;
+}
+.td3{
+padding-bottom: 100px;
+text-align: right;
+}
+.td4{
+    padding: 2px;
+    text-align: right;
+}
+        </style>
+<title>Task 10</title>
+</head>
+<body>
+    <table>
+    <form action="">
+       <tr> <th colspan="2" id="th2"> REPORT FORM</th></tr> 
+    
+        <tr><th colspan="2" id="th1">INFORMATION TABLE</th></tr>
+    
+        <tr>
+            <td class="td1"><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name"><br>ENTER YOUR FULL NAME</td>
+        </tr>
+        <tr>
+            <td  class="td1"><label for="Email">Email</label></td>
+            <td><input type="email" name="Email" id="Email"><br> ENTER AN INTERNET CONTACT ADDRESS</td>
+        </tr>
+        <tr>
+            <td  class="td1"><label for="password">password</label></td>
+            <td><input type="password"><br>ENTER A CODE THAT IDENTIFY YOU</td>
+        </tr>
+        <tr>
+            <td  class="td1"><label for="address">Address</label></td>
+            <td><input type="address"><br>COMPLETE ADDRESS</td>
+        </tr>
+        <tr>
+            <td class="td1"><label for="abc">country</label></td>
+<td><select name="country" id="country" size="1">
+    <option value="america">america</option>
+    <option value="australia">australia</option>
+    <option value="china">china</option>
+    <option value="england">england</option>
+    <option value="India">India</option>
+    <option value="oman">oman</option>
+    <option value="Pakistan" selected>Pakistan</option>
+</select></td>
+        </tr>
+        <tr>
+            <td  class="td1"><label for="gender">gender</label></td>
+            <td ><input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label></td>
+        </tr>
+        <tr>
+<td  class="td3"><label for="Hobbies">Hobbies</label><br></td>
+<td><input type="checkbox" name="Hobbies" id="READING">
+    <label for="READING">READING</label><br>
+    <input type="checkbox" name="Hobbies" id="LISTENING MUSIC">
+    <label for="LISTENING MUSIC">LISTENING MUSIC</label><br>
+    <input type="checkbox" name="Hobbies" id="GARDENING">
+    <label for="GARDENING">GARDENING</label><br>
+    <input type="checkbox" name="Hobbies" id="SWIMING">
+    <label for="SWIMING">SWIMING</label><br>
+    <input type="checkbox" name="Hobbies" id="ATHLETICS">
+    <label for="ATHLETICS">ATHLETICS</label><br>CHECK ALL THAT APPLY</td>
+        </tr>  
+<tr>
+    <td  class="td1"><label for="your website">your website</label></td>
+    <td><input type="your website"><br>PROVIDE YOUR WEBSITES URL IF EXIST (NOT NECESSAERY)</td>
+</tr>
+<tr>
+    <td  class="td3"><label for="OTHER INFORMATION ABOUT YOU">OTHER INFORMATION ABOUT YOU</label><br></td>
+    <td><textarea name="OTHER INFORMATION ABOUT YOU" id="OTHER INFORMATION ABOUT YOU" cols="30" rows="10"></textarea><br> <label for="if">WRITE ANY OTHER INFORMATION THAT IS NOT PRESENT HERE</label></td>
+</tr>
+<tr>
+    <td  class="td4"><button>SEND IN MY REPORT</button></td>
+    <td><button>ERASE REPORT FORM</button>
+    </td>
+</tr>
+    </form>
+</table>
+</body>
+</html>

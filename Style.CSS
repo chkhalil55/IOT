@@ -1,0 +1,21 @@
+h1{
+    font-style: italic;
+    color: rgb(40, 15, 129);
+
+} 
+body{
+    background-color: rgb(221, 96, 113);
+background-image: url(../img/nb.jpg);
+
+color: brown;
+}
+
+h2{
+    font-style: italic;
+    color: blue;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
